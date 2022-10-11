@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css2?family=Sora:wght@400;
+
+700&display=swap);* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Sora", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: #64748B;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: white;
+}
+
+h3 {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: #0F172A;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 1.5rem 2rem;
+  margin: 0 auto;
+}
+
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
+header,
+footer {
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+header {
+  background-color: #64CE83;
+  color: white;
+}
+
+footer {
+  background-color: #F6F9FA;
+  color: #0F172A;
+}
+
+.movies-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.card {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: #F6F9FA;
+}
+

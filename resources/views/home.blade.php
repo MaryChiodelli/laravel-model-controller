@@ -3,9 +3,9 @@
 @section('metaTitle', 'Home page')
 
 @section('content')
-<ul>
+<ul class="container movies-wrapper">
     @forelse($movies as $movie)
-        <li>
+        <li class="card">
             <h3>{{ $movie['title'] }}</h3>
             <div>{{ $movie['original_title'] }}</div>
             <div>{{ $movie['nationality'] }}</div>
